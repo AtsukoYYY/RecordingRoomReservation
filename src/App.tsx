@@ -1,11 +1,11 @@
 import "./styles.css";
 import { Calendar } from "./conpornents/Calendar";
-import { ButtonAppBar } from "./conpornents/AppBar";
+import { Header } from "./conpornents/Header";
 
 export default function App() {
   return (
     <div className="App">
-      <ButtonAppBar />
+      <Header />
       <Calendar />
     </div>
   );
